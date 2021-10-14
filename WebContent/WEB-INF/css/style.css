@@ -1,0 +1,75 @@
+
+.login-box
+		{
+			height: 50%;
+			width: 30%;
+			border: 1px solid grey;
+			margin-left: 35%;
+			margin-top: 10%;
+			position: relative;
+      		box-shadow: 21px 12px 24px 10px rgba(0, 0, 0, .5);
+      		background: #dadada;
+		}
+		.login-header
+		{
+			text-align: center;
+			font-family: "vardhana",cursive;
+			font-size: 35px;
+			background: linear-gradient(to bottom, #00bfff 0%, #0000ff 100%);
+			color:#fff;
+			position: relative;
+      		box-shadow: 1px 3px 14px  rgba(0, 0, 0, .5);
+		}
+		.login-body
+		{
+			padding: 20px;
+			line-height: 2;
+		}
+		
+.mini-submenu{
+  display:none;  
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  /*position: relative;*/
+  width: 42px;
+
+}
+
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container{
+	
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.row{
+	margin: 50px 100px 50px 10px; 
+}
+.form-check{
+	margin: 20px 20px 20px 20px; 
+}
